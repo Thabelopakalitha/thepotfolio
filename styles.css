@@ -1,0 +1,68 @@
+body{
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+		background-image: url('back.jpg');
+		background-size: 50% 100%;
+		background-position: right ;
+		background-repeat: no-repeat;
+		height: 100vh;
+}
+Header{
+		background-color: skyblue;
+		color: #fff;
+		padding: 20px;
+}
+Header nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+}
+Header nav ul li{
+			display: inline;
+			margin-right: 20px;
+}
+Header nav ul li a{
+				color: #fff;
+				text-decoration: none;
+}
+
+.change{
+		text-align: right;
+		margin: 0;
+		max-width: 85%;
+		max-height: 50%;
+
+}
+.services{
+			text-align: center;
+			margin: 0;
+			max-width: 15%;
+			display: inline-block;
+			display: grid;
+			grid-template-columns:repeat(2, 1fr);
+			grid-gap: 20px;
+}
+
+h1{
+   color : blue;
+ 
+}
+
+p{
+   color : blue;
+   
+   
+}
+
+footer{
+		background-color: skyblue;
+		color: #fff;
+		padding: 20px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+
+}
